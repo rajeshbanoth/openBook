@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d80b13d617c983996aef3c1a142151d6",
+    "revision": "2ee672f70ff48c64e829685abbc695bd",
     "url": "/openBook/index.html"
   },
   {
-    "revision": "bb72ce5642a6f911a9f2",
+    "revision": "b3c670ef2d4ae7e814fe",
     "url": "/openBook/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "91763eea1869c787afab",
+    "revision": "8e67c2558b4fe0f80131",
     "url": "/openBook/static/css/main.db430fef.chunk.css"
   },
   {
-    "revision": "bb72ce5642a6f911a9f2",
-    "url": "/openBook/static/js/2.894b96ab.chunk.js"
+    "revision": "b3c670ef2d4ae7e814fe",
+    "url": "/openBook/static/js/2.82100d29.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/openBook/static/js/2.894b96ab.chunk.js.LICENSE.txt"
+    "url": "/openBook/static/js/2.82100d29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91763eea1869c787afab",
-    "url": "/openBook/static/js/main.eb5a8c98.chunk.js"
+    "revision": "8e67c2558b4fe0f80131",
+    "url": "/openBook/static/js/main.292d359e.chunk.js"
   },
   {
     "revision": "f9834dc7d64594bdd313",
