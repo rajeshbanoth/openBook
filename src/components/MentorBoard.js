@@ -19,6 +19,9 @@ import {
     MENTOR_MESSAGE
   } from "../actions/types"
 
+
+  const siteConfig = require('../siteConfig')
+
 const useStyles = makeStyles(theme => ({
     root: {
         backgroundColor: '#ede102',
@@ -98,7 +101,7 @@ const OpenMessagePanel =() =>{
 
         console.log(mentoremail)
 
-        Axios.post('http://localhost:8080/api/get/querydataforreply', { mentoremail }).then(response => {
+        Axios.post(siteConfig.url+'/api/get/querydataforreply', { mentoremail }).then(response => {
 
             console.log(response)
 
