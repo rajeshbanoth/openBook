@@ -17,10 +17,14 @@ import { useHistory } from "react-router-dom";
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import { TrainOutlined } from '@material-ui/icons';
 
+ 
+
 import {
     STUDENT_MESSAGE
   } from "../actions/types"
 
+
+  const siteConfig = require('../siteConfig')
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -115,7 +119,7 @@ const closeMessageBox =()=>{
 
         console.log(studentemail)
 
-        Axios.post('http://localhost:8080/api/get/retrievemessage', { studentemail }).then(response => {
+        Axios.post(siteConfig.url+'/api/get/retrievemessage', { studentemail }).then(response => {
 
             console.log(response)
 
