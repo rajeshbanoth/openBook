@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/openBook/static/css/main.db430fef.chunk.css",
-    "main.js": "/openBook/static/js/main.292d359e.chunk.js",
-    "main.js.map": "/openBook/static/js/main.292d359e.chunk.js.map",
+    "main.js": "/openBook/static/js/main.e589e62d.chunk.js",
+    "main.js.map": "/openBook/static/js/main.e589e62d.chunk.js.map",
     "runtime-main.js": "/openBook/static/js/runtime-main.0eebe7aa.js",
     "runtime-main.js.map": "/openBook/static/js/runtime-main.0eebe7aa.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/openBook/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.82100d29.chunk.js": "/openBook/static/js/2.82100d29.chunk.js",
-    "static/js/2.82100d29.chunk.js.map": "/openBook/static/js/2.82100d29.chunk.js.map",
+    "static/js/2.a680884c.chunk.js": "/openBook/static/js/2.a680884c.chunk.js",
+    "static/js/2.a680884c.chunk.js.map": "/openBook/static/js/2.a680884c.chunk.js.map",
     "index.html": "/openBook/index.html",
-    "precache-manifest.9807645114e6e08fdccbf4b6c8ba3e76.js": "/openBook/precache-manifest.9807645114e6e08fdccbf4b6c8ba3e76.js",
+    "precache-manifest.28b5f4fb7e252b740747e980ad9753bf.js": "/openBook/precache-manifest.28b5f4fb7e252b740747e980ad9753bf.js",
     "service-worker.js": "/openBook/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/openBook/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.db430fef.chunk.css.map": "/openBook/static/css/main.db430fef.chunk.css.map",
-    "static/js/2.82100d29.chunk.js.LICENSE.txt": "/openBook/static/js/2.82100d29.chunk.js.LICENSE.txt"
+    "static/js/2.a680884c.chunk.js.LICENSE.txt": "/openBook/static/js/2.a680884c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0eebe7aa.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.82100d29.chunk.js",
+    "static/js/2.a680884c.chunk.js",
     "static/css/main.db430fef.chunk.css",
-    "static/js/main.292d359e.chunk.js"
+    "static/js/main.e589e62d.chunk.js"
   ]
 }
