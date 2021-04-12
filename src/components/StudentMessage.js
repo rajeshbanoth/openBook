@@ -8,6 +8,8 @@ import { Button, Paper, Typography } from '@material-ui/core';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 
+const siteConfig = require('../siteConfig')
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -87,7 +89,7 @@ const values ={
 
 
     
-  Axios.post('http://localhost:8080/api/postquerymessage',{values}).then(response=>{
+  Axios.post(siteConfig.url+'/api/postquerymessage',{values}).then(response=>{
       console.log(response)
 
       if(response.status==200){
