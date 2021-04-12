@@ -5,6 +5,8 @@ import { useSelector } from 'react-redux';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 
+const siteConfig = require('../siteConfig')
+
 
 
 function Alert(props) {
@@ -101,7 +103,7 @@ const [replybox,setreplybox]=useState(false)
 
         console.log(data)
 
-        Axios.put("http://localhost:8080/api/post/querydataforreply",{data}).then(response=>{
+        Axios.put(siteConfig.url+"/api/post/querydataforreply",{data}).then(response=>{
     console.log(response)
 
     if(response.status==200){
