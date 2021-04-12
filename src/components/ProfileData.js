@@ -8,6 +8,7 @@ import MuiAlert from '@material-ui/lab/Alert';
 
 import { useSelector } from 'react-redux';
 import Axios from 'axios';
+const siteConfig = require('../siteConfig')
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -71,7 +72,7 @@ const  [values,setvalues]= useState({
 const sumbitdata =()=>{
     console.log(values)
 
-Axios.post("http://localhost:8080/api/personaldata",{values}).then(response=>{
+Axios.post(siteConfig.url+"/api/personaldata",{values}).then(response=>{
     console.log(response)
 
 
